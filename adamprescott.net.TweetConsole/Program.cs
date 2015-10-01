@@ -8,7 +8,7 @@
     {
         const string _consumerKey = "";     // your application's consumer key
         const string _consumerSecret = "";  // your application's consumer key
-        private TwitterConsumer _twitter;
+        private readonly TwitterConsumer _twitter;
 
         static void Main(string[] args)
         {
